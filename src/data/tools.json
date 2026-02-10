@@ -1,0 +1,1318 @@
+[
+    {
+        "id": 1,
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": "Assistente de IA conversacional da OpenAI para escrita, código e pesquisa.",
+        "category": "ia",
+        "emoji": "🤖",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 2,
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com",
+        "description": "IA multimodal do Google para texto, imagens e raciocínio avançado.",
+        "category": "ia",
+        "emoji": "✨",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 3,
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "description": "IA da Anthropic focada em respostas seguras, longas e analíticas.",
+        "category": "ia",
+        "emoji": "🧠",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 4,
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "description": "Motor de busca com IA que fornece respostas com fontes citadas.",
+        "category": "ia",
+        "emoji": "🔍",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 5,
+        "name": "Brain.fm",
+        "url": "https://www.brain.fm",
+        "description": "Música gerada por IA projetada para melhorar foco e produtividade.",
+        "category": "ia",
+        "emoji": "🎵",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 6,
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "description": "Plataforma open source com milhares de modelos de IA para experimentar.",
+        "category": "ia",
+        "emoji": "🤗",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 7,
+        "name": "Leonardo AI",
+        "url": "https://leonardo.ai",
+        "description": "Gerador de imagens com IA de alta qualidade para arte e design.",
+        "category": "ia",
+        "emoji": "🎨",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 8,
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai",
+        "description": "Modelo open source de geração de imagens por IA, rodável localmente.",
+        "category": "ia",
+        "emoji": "🖼️",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 9,
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "description": "Síntese de voz por IA ultra-realista para narração e dublagem.",
+        "category": "ia",
+        "emoji": "🗣️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 10,
+        "name": "Validator AI",
+        "url": "https://www.validatorai.com",
+        "description": "IA que analisa e valida ideias de negócios com feedback detalhado.",
+        "category": "ia",
+        "emoji": "💡",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 11,
+        "name": "Canva",
+        "url": "https://www.canva.com",
+        "description": "Editor gráfico completo para posts, apresentações, vídeos e impressos.",
+        "category": "design",
+        "emoji": "🎨",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 12,
+        "name": "Figma",
+        "url": "https://www.figma.com",
+        "description": "Ferramenta colaborativa líder mundial para design de interfaces (UI/UX).",
+        "category": "design",
+        "emoji": "🖌️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 13,
+        "name": "Remove.bg",
+        "url": "https://www.remove.bg",
+        "description": "Remove fundo de imagens automaticamente usando IA, em segundos.",
+        "category": "design",
+        "emoji": "✂️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 14,
+        "name": "Photopea",
+        "url": "https://www.photopea.com",
+        "description": "Editor de imagens online gratuito compatível com PSD, similar ao Photoshop.",
+        "category": "design",
+        "emoji": "🖼️",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 15,
+        "name": "IconScout",
+        "url": "https://iconscout.com",
+        "description": "Biblioteca enorme de ícones vetoriais, ilustrações e assets 3D.",
+        "category": "design",
+        "emoji": "🎯",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 16,
+        "name": "Fontjoy",
+        "url": "https://fontjoy.com",
+        "description": "Usa deep learning para gerar combinações harmoniosas de fontes.",
+        "category": "design",
+        "emoji": "🔤",
+        "tags": [
+            "free"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 17,
+        "name": "Palettemaker",
+        "url": "https://palettemaker.com",
+        "description": "Cria paletas de cores e visualiza aplicadas em exemplos de design reais.",
+        "category": "design",
+        "emoji": "🌈",
+        "tags": [
+            "free"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 18,
+        "name": "Coolors",
+        "url": "https://coolors.co",
+        "description": "Gerador de paletas de cores rápido e intuitivo para designers.",
+        "category": "design",
+        "emoji": "🎨",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 19,
+        "name": "Unsplash",
+        "url": "https://unsplash.com",
+        "description": "Banco de imagens de alta qualidade totalmente gratuito e sem royalties.",
+        "category": "design",
+        "emoji": "📷",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 20,
+        "name": "Pexels",
+        "url": "https://www.pexels.com",
+        "description": "Fotos e vídeos gratuitos de alta resolução para qualquer projeto.",
+        "category": "design",
+        "emoji": "📸",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 21,
+        "name": "I Love PDF",
+        "url": "https://www.ilovepdf.com",
+        "description": "Suite completa para PDF: mesclar, dividir, comprimir, converter e editar.",
+        "category": "pdf",
+        "emoji": "📄",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 22,
+        "name": "SmallPDF",
+        "url": "https://smallpdf.com",
+        "description": "Compressão e conversão de PDF rápida e fácil em 21+ ferramentas.",
+        "category": "pdf",
+        "emoji": "📑",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 23,
+        "name": "PDF24",
+        "url": "https://tools.pdf24.org",
+        "description": "Ferramentas PDF 100% gratuitas: converter, mesclar, comprimir, OCR.",
+        "category": "pdf",
+        "emoji": "📋",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 24,
+        "name": "Sejda PDF",
+        "url": "https://www.sejda.com",
+        "description": "Editor de PDF online com edição de texto, formulários e assinaturas.",
+        "category": "pdf",
+        "emoji": "✍️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 25,
+        "name": "PDF Candy",
+        "url": "https://pdfcandy.com",
+        "description": "Conversor e editor de PDF com 47 ferramentas online gratuitas.",
+        "category": "pdf",
+        "emoji": "🍬",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 26,
+        "name": "DocuSign",
+        "url": "https://www.docusign.com",
+        "description": "Assinatura digital de documentos com validade jurídica.",
+        "category": "pdf",
+        "emoji": "🖊️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 27,
+        "name": "OCR Space",
+        "url": "https://ocr.space",
+        "description": "Reconhecimento óptico de caracteres gratuito para extrair texto de imagens.",
+        "category": "pdf",
+        "emoji": "👁️",
+        "tags": [
+            "free"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 28,
+        "name": "CloudConvert",
+        "url": "https://cloudconvert.com",
+        "description": "Conversor universal de arquivos: suporta 200+ formatos diferentes.",
+        "category": "pdf",
+        "emoji": "🔄",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 29,
+        "name": "TinyPNG",
+        "url": "https://tinypng.com",
+        "description": "Comprime imagens PNG e JPEG mantendo qualidade visual excelente.",
+        "category": "pdf",
+        "emoji": "🐼",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 30,
+        "name": "Convertio",
+        "url": "https://convertio.co",
+        "description": "Conversor de arquivos online suportando 300+ formatos.",
+        "category": "pdf",
+        "emoji": "🔃",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 31,
+        "name": "Notion",
+        "url": "https://www.notion.so",
+        "description": "Workspace all-in-one para notas, docs, projetos, wikis e bases de dados.",
+        "category": "produtividade",
+        "emoji": "📝",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 32,
+        "name": "Trello",
+        "url": "https://trello.com",
+        "description": "Gerenciamento de projetos visual com quadros Kanban simples e intuitivos.",
+        "category": "produtividade",
+        "emoji": "📌",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 33,
+        "name": "n8n",
+        "url": "https://n8n.io",
+        "description": "Automação de workflows open source, alternativa poderosa ao Zapier.",
+        "category": "produtividade",
+        "emoji": "⚡",
+        "tags": [
+            "freemium",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 34,
+        "name": "Airtable",
+        "url": "https://airtable.com",
+        "description": "Planilha com superpoderes: banco de dados visual e colaborativo.",
+        "category": "produtividade",
+        "emoji": "📊",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 35,
+        "name": "Tally",
+        "url": "https://tally.so",
+        "description": "Criador de formulários gratuito com visual limpo estilo Notion.",
+        "category": "produtividade",
+        "emoji": "📋",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 36,
+        "name": "Calendly",
+        "url": "https://calendly.com",
+        "description": "Agendamento de reuniões automático sem troca de emails.",
+        "category": "produtividade",
+        "emoji": "📅",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 37,
+        "name": "Todoist",
+        "url": "https://todoist.com",
+        "description": "Gerenciador de tarefas elegante com projetos, filtros e integração.",
+        "category": "produtividade",
+        "emoji": "✅",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 38,
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com",
+        "description": "Quadro branco virtual para diagramas e sketches com visual hand-drawn.",
+        "category": "produtividade",
+        "emoji": "✏️",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 39,
+        "name": "Obsidian",
+        "url": "https://obsidian.md",
+        "description": "Notas em Markdown com links bidirecionais e gráfico de conhecimento.",
+        "category": "produtividade",
+        "emoji": "💎",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 40,
+        "name": "Linear",
+        "url": "https://linear.app",
+        "description": "Ferramenta de gestão de projetos ultra-rápida para equipes de produto.",
+        "category": "produtividade",
+        "emoji": "🚀",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 41,
+        "name": "GitHub",
+        "url": "https://github.com",
+        "description": "Plataforma líder para hospedagem de código, colaboração e open source.",
+        "category": "dev",
+        "emoji": "🐙",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 42,
+        "name": "VS Code Web",
+        "url": "https://vscode.dev",
+        "description": "Editor de código completo da Microsoft rodando direto no navegador.",
+        "category": "dev",
+        "emoji": "💻",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 43,
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "description": "Deploy instantâneo para sites e apps com domínio gratuito e SSL.",
+        "category": "dev",
+        "emoji": "▲",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 44,
+        "name": "Replit",
+        "url": "https://replit.com",
+        "description": "IDE online colaborativa com execução, deploy e IA integrada.",
+        "category": "dev",
+        "emoji": "⚡",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 45,
+        "name": "CodePen",
+        "url": "https://codepen.io",
+        "description": "Playground online para HTML, CSS e JS com comunidade ativa.",
+        "category": "dev",
+        "emoji": "🖊️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 46,
+        "name": "Netlify",
+        "url": "https://www.netlify.com",
+        "description": "Plataforma de deploy para sites estáticos com CI/CD e formulários.",
+        "category": "dev",
+        "emoji": "🌐",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 47,
+        "name": "Railway",
+        "url": "https://railway.app",
+        "description": "Deploy de backend simplificado com banco de dados e variáveis de ambiente.",
+        "category": "dev",
+        "emoji": "🚂",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 48,
+        "name": "Supabase",
+        "url": "https://supabase.com",
+        "description": "Backend open source com banco Postgres, auth, storage e realtime.",
+        "category": "dev",
+        "emoji": "⚡",
+        "tags": [
+            "freemium",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 49,
+        "name": "InfinityFree",
+        "url": "https://www.infinityfree.com",
+        "description": "Hospedagem web totalmente gratuita sem anúncios forçados.",
+        "category": "dev",
+        "emoji": "♾️",
+        "tags": [
+            "free"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 50,
+        "name": "StackBlitz",
+        "url": "https://stackblitz.com",
+        "description": "IDE web instantânea para Node.js que roda nativamente no navegador.",
+        "category": "dev",
+        "emoji": "⚡",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 51,
+        "name": "Mailchimp",
+        "url": "https://mailchimp.com",
+        "description": "Plataforma de email marketing com automações e templates gratuitos.",
+        "category": "marketing",
+        "emoji": "📧",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 52,
+        "name": "Buffer",
+        "url": "https://buffer.com",
+        "description": "Agendamento de posts em redes sociais com analytics básico.",
+        "category": "marketing",
+        "emoji": "📱",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 53,
+        "name": "Hunter.io",
+        "url": "https://hunter.io",
+        "description": "Encontra endereços de email profissionais a partir de domínios.",
+        "category": "marketing",
+        "emoji": "🎯",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 54,
+        "name": "Ubersuggest",
+        "url": "https://neilpatel.com/ubersuggest",
+        "description": "Ferramenta SEO gratuita de Neil Patel para pesquisa de palavras-chave.",
+        "category": "marketing",
+        "emoji": "🔎",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 55,
+        "name": "Google Analytics",
+        "url": "https://analytics.google.com",
+        "description": "Análise de tráfego e comportamento dos usuários do seu site.",
+        "category": "marketing",
+        "emoji": "📊",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 56,
+        "name": "Google Search Console",
+        "url": "https://search.google.com/search-console",
+        "description": "Monitore a presença do seu site nos resultados de busca do Google.",
+        "category": "marketing",
+        "emoji": "🔍",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 57,
+        "name": "Hotjar",
+        "url": "https://www.hotjar.com",
+        "description": "Heatmaps e gravações de sessão para entender comportamento de usuários.",
+        "category": "marketing",
+        "emoji": "🔥",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 58,
+        "name": "Answer The Public",
+        "url": "https://answerthepublic.com",
+        "description": "Descubra as perguntas que as pessoas fazem sobre qualquer tema.",
+        "category": "marketing",
+        "emoji": "❓",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 59,
+        "name": "Brevo (Sendinblue)",
+        "url": "https://www.brevo.com",
+        "description": "Email marketing + CRM + chat com plano gratuito generoso.",
+        "category": "marketing",
+        "emoji": "💌",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 60,
+        "name": "Google Trends",
+        "url": "https://trends.google.com",
+        "description": "Explore tendências de busca globais e regionais em tempo real.",
+        "category": "marketing",
+        "emoji": "📈",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 61,
+        "name": "CapCut",
+        "url": "https://www.capcut.com",
+        "description": "Editor de vídeo gratuito da ByteDance com efeitos, legendas IA e mais.",
+        "category": "multimidia",
+        "emoji": "🎬",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 62,
+        "name": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "description": "Editor de vídeo profissional gratuito com color grading de Hollywood.",
+        "category": "multimidia",
+        "emoji": "🎥",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 63,
+        "name": "Audacity",
+        "url": "https://www.audacityteam.org",
+        "description": "Editor de áudio open source para gravação, edição e mixagem.",
+        "category": "multimidia",
+        "emoji": "🎙️",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 64,
+        "name": "OBS Studio",
+        "url": "https://obsproject.com",
+        "description": "Software open source para streaming e gravação de tela profissional.",
+        "category": "multimidia",
+        "emoji": "📹",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 65,
+        "name": "Clipchamp",
+        "url": "https://clipchamp.com",
+        "description": "Editor de vídeo online da Microsoft integrado ao Windows e web.",
+        "category": "multimidia",
+        "emoji": "✂️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 66,
+        "name": "Loom",
+        "url": "https://www.loom.com",
+        "description": "Grave vídeos rápidos da tela e câmera para comunicação assíncrona.",
+        "category": "multimidia",
+        "emoji": "🎦",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 67,
+        "name": "Descript",
+        "url": "https://www.descript.com",
+        "description": "Edite vídeo e podcast como se fosse um documento de texto.",
+        "category": "multimidia",
+        "emoji": "📜",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 68,
+        "name": "Pixabay",
+        "url": "https://pixabay.com",
+        "description": "Banco de imagens, vídeos, música e efeitos sonoros gratuitos.",
+        "category": "multimidia",
+        "emoji": "🖼️",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 69,
+        "name": "Soundraw",
+        "url": "https://soundraw.io",
+        "description": "Crie músicas originais com IA para vídeos e conteúdo.",
+        "category": "multimidia",
+        "emoji": "🎶",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 70,
+        "name": "HandBrake",
+        "url": "https://handbrake.fr",
+        "description": "Conversor de vídeo open source para qualquer formato.",
+        "category": "multimidia",
+        "emoji": "🔧",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 71,
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "description": "Corretor gramatical com IA para inglês, tom e clareza de escrita.",
+        "category": "escrita",
+        "emoji": "✍️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 72,
+        "name": "Hemingway Editor",
+        "url": "https://hemingwayapp.com",
+        "description": "Analisa legibilidade do texto e sugere simplificações.",
+        "category": "escrita",
+        "emoji": "📖",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 73,
+        "name": "LanguageTool",
+        "url": "https://languagetool.org",
+        "description": "Corretor gramatical open source para 30+ idiomas, incluindo português.",
+        "category": "escrita",
+        "emoji": "🌍",
+        "tags": [
+            "freemium",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 74,
+        "name": "QuillBot",
+        "url": "https://quillbot.com",
+        "description": "Parafraseador com IA que reescreve textos mantendo o significado.",
+        "category": "escrita",
+        "emoji": "🪶",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 75,
+        "name": "Grammica",
+        "url": "https://grammica.com",
+        "description": "Kit completo de escrita com IA: paráfrase, resumo, checagem.",
+        "category": "escrita",
+        "emoji": "📝",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 76,
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "description": "IA integrada ao Notion para escrever, resumir e brainstormar.",
+        "category": "escrita",
+        "emoji": "🤖",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 77,
+        "name": "DeepL",
+        "url": "https://www.deepl.com",
+        "description": "Tradutor com IA de alta qualidade, superior ao Google Translate.",
+        "category": "escrita",
+        "emoji": "🌐",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 78,
+        "name": "Typefully",
+        "url": "https://typefully.com",
+        "description": "Escreva e agende threads para Twitter/X e LinkedIn.",
+        "category": "escrita",
+        "emoji": "🐦",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 79,
+        "name": "Copy.ai",
+        "url": "https://www.copy.ai",
+        "description": "Gerador de copy com IA para marketing, emails e anúncios.",
+        "category": "escrita",
+        "emoji": "✨",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 80,
+        "name": "Otter.ai",
+        "url": "https://otter.ai",
+        "description": "Transcrição de reuniões e áudio em texto com IA em tempo real.",
+        "category": "escrita",
+        "emoji": "🦦",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 81,
+        "name": "Bitwarden",
+        "url": "https://bitwarden.com",
+        "description": "Gerenciador de senhas open source, seguro e gratuito.",
+        "category": "seguranca",
+        "emoji": "🔐",
+        "tags": [
+            "freemium",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 82,
+        "name": "ProtonMail",
+        "url": "https://proton.me/mail",
+        "description": "Email criptografado de ponta a ponta para máxima privacidade.",
+        "category": "seguranca",
+        "emoji": "📧",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 83,
+        "name": "uBlock Origin",
+        "url": "https://ublockorigin.com",
+        "description": "Bloqueador de anúncios open source, leve e eficiente para navegadores.",
+        "category": "seguranca",
+        "emoji": "🛡️",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 84,
+        "name": "Windscribe VPN",
+        "url": "https://windscribe.com",
+        "description": "VPN gratuita com 10GB/mês e bloqueio de rastreadores integrado.",
+        "category": "seguranca",
+        "emoji": "🌬️",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 85,
+        "name": "Have I Been Pwned",
+        "url": "https://haveibeenpwned.com",
+        "description": "Verifique se seu email foi comprometido em vazamentos de dados.",
+        "category": "seguranca",
+        "emoji": "⚠️",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 86,
+        "name": "VirusTotal",
+        "url": "https://www.virustotal.com",
+        "description": "Analise arquivos e URLs suspeitos com 70+ antivírus simultaneamente.",
+        "category": "seguranca",
+        "emoji": "🔬",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 87,
+        "name": "Privacy Badger",
+        "url": "https://privacybadger.org",
+        "description": "Extensão que aprende automaticamente a bloquear rastreadores invisíveis.",
+        "category": "seguranca",
+        "emoji": "🦡",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 88,
+        "name": "Signal",
+        "url": "https://signal.org",
+        "description": "Mensageiro criptografado de código aberto para chat seguro.",
+        "category": "seguranca",
+        "emoji": "💬",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 89,
+        "name": "Proton VPN",
+        "url": "https://protonvpn.com",
+        "description": "VPN gratuita e ilimitada dos criadores do ProtonMail.",
+        "category": "seguranca",
+        "emoji": "🔒",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 90,
+        "name": "SimpleLogin",
+        "url": "https://simplelogin.io",
+        "description": "Aliases de email para proteger seu endereço real de spam.",
+        "category": "seguranca",
+        "emoji": "📮",
+        "tags": [
+            "freemium",
+            "open-source"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 91,
+        "name": "Discord",
+        "url": "https://discord.com",
+        "description": "Plataforma de comunicação com chat de voz, vídeo e texto para comunidades.",
+        "category": "social",
+        "emoji": "💬",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 92,
+        "name": "Slack",
+        "url": "https://slack.com",
+        "description": "Comunicação em equipe com canais, integrações e busca poderosa.",
+        "category": "social",
+        "emoji": "💼",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 93,
+        "name": "Zoom",
+        "url": "https://zoom.us",
+        "description": "Videoconferência confiável com plano gratuito de 40 minutos.",
+        "category": "social",
+        "emoji": "📹",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 94,
+        "name": "Google Meet",
+        "url": "https://meet.google.com",
+        "description": "Videochamadas gratuitas integradas ao ecossistema Google.",
+        "category": "social",
+        "emoji": "🎥",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 95,
+        "name": "Miro",
+        "url": "https://miro.com",
+        "description": "Quadro branco colaborativo para brainstorms, diagramas e workshops.",
+        "category": "social",
+        "emoji": "🎨",
+        "tags": [
+            "freemium"
+        ],
+        "popular": true,
+        "editorChoice": true
+    },
+    {
+        "id": 96,
+        "name": "Gather",
+        "url": "https://www.gather.town",
+        "description": "Escritório virtual 2D para equipes remotas com interação espacial.",
+        "category": "social",
+        "emoji": "🏢",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": true
+    },
+    {
+        "id": 97,
+        "name": "Whereby",
+        "url": "https://whereby.com",
+        "description": "Videochamadas sem download — basta compartilhar um link.",
+        "category": "social",
+        "emoji": "🔗",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 98,
+        "name": "Telegram",
+        "url": "https://telegram.org",
+        "description": "Mensageiro rápido com bots, canais, grupos e armazenamento ilimitado.",
+        "category": "social",
+        "emoji": "✈️",
+        "tags": [
+            "free"
+        ],
+        "popular": true,
+        "editorChoice": false
+    },
+    {
+        "id": 99,
+        "name": "Figma FigJam",
+        "url": "https://www.figma.com/figjam",
+        "description": "Whiteboard colaborativo da Figma para ideação e brainstorm em equipe.",
+        "category": "social",
+        "emoji": "🧩",
+        "tags": [
+            "freemium"
+        ],
+        "popular": false,
+        "editorChoice": false
+    },
+    {
+        "id": 100,
+        "name": "Cal.com",
+        "url": "https://cal.com",
+        "description": "Agendamento open source — alternativa gratuita ao Calendly.",
+        "category": "social",
+        "emoji": "📅",
+        "tags": [
+            "free",
+            "open-source"
+        ],
+        "popular": false,
+        "editorChoice": true
+    }
+]

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kit Digital — Hub de Ferramentas Gratuitas</title>
+  <meta name="description"
+    content="Descubra e acesse as 100 melhores ferramentas online gratuitas organizadas por categoria. IA, Design, PDF, Produtividade e mais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <!-- Command Palette Overlay -->
+  <div class="cmd-palette-overlay" id="cmdOverlay">
+    <div class="cmd-palette" id="cmdPalette">
+      <div class="cmd-palette-header">
+        <svg class="cmd-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="cmdInput" placeholder="Buscar ferramentas..." autocomplete="off" />
+        <kbd class="cmd-kbd">ESC</kbd>
+      </div>
+      <div class="cmd-results" id="cmdResults"></div>
+    </div>
+  </div>
+
+  <!-- Main Layout -->
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Alternar menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+        <div class="logo">
+          <span class="logo-emoji">📦</span>
+          <h1 class="logo-text">Kit Digital</h1>
+          <span class="logo-byline">criado por <a href="https://sbfrogerio.github.io/Rogerio-Bezerra/" target="_blank"
+              rel="noopener">Rogério Bezerra</a></span>
+        </div>
+      </div>
+      <div class="header-center">
+        <button class="search-trigger" id="searchTrigger">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span>Buscar ferramentas...</span>
+          <kbd>⌘K</kbd>
+        </button>
+      </div>
+      <div class="header-right">
+        <button class="icon-btn" id="favFilterBtn" aria-label="Mostrar favoritos" title="Favoritos">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+            </path>
+          </svg>
+        </button>
+        <button class="icon-btn" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Categorias</h3>
+          <nav class="category-nav" id="categoryNav">
+            <button class="category-pill active" data-category="all">
+              <span class="pill-emoji">🌐</span>
+              <span>Todas</span>
+              <span class="pill-count" id="countAll">100</span>
+            </button>
+            <button class="category-pill" data-category="ia">
+              <span class="pill-emoji">🤖</span>
+              <span>IA & Inovação</span>
+              <span class="pill-count" id="countIa">10</span>
+            </button>
+            <button class="category-pill" data-category="design">
+              <span class="pill-emoji">🎨</span>
+              <span>Design & Criatividade</span>
+              <span class="pill-count" id="countDesign">10</span>
+            </button>
+            <button class="category-pill" data-category="pdf">
+              <span class="pill-emoji">📄</span>
+              <span>PDF & Documentos</span>
+              <span class="pill-count" id="countPdf">10</span>
+            </button>
+            <button class="category-pill" data-category="produtividade">
+              <span class="pill-emoji">⚡</span>
+              <span>Produtividade</span>
+              <span class="pill-count" id="countProdutividade">10</span>
+            </button>
+            <button class="category-pill" data-category="dev">
+              <span class="pill-emoji">💻</span>
+              <span>Dev & Hosting</span>
+              <span class="pill-count" id="countDev">10</span>
+            </button>
+            <button class="category-pill" data-category="marketing">
+              <span class="pill-emoji">📊</span>
+              <span>Marketing Digital</span>
+              <span class="pill-count" id="countMarketing">10</span>
+            </button>
+            <button class="category-pill" data-category="multimidia">
+              <span class="pill-emoji">🎬</span>
+              <span>Multimídia</span>
+              <span class="pill-count" id="countMultimidia">10</span>
+            </button>
+            <button class="category-pill" data-category="escrita">
+              <span class="pill-emoji">✍️</span>
+              <span>Escrita & Texto</span>
+              <span class="pill-count" id="countEscrita">10</span>
+            </button>
+            <button class="category-pill" data-category="seguranca">
+              <span class="pill-emoji">🔒</span>
+              <span>Segurança & Privacidade</span>
+              <span class="pill-count" id="countSeguranca">10</span>
+            </button>
+            <button class="category-pill" data-category="social">
+              <span class="pill-emoji">📱</span>
+              <span>Social & Comunicação</span>
+              <span class="pill-count" id="countSocial">10</span>
+            </button>
+          </nav>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Tipo</h3>
+          <div class="tag-filters" id="tagFilters">
+            <button class="tag-pill" data-tag="free">🟢 Gratuito</button>
+            <button class="tag-pill" data-tag="freemium">🟡 Freemium</button>
+            <button class="tag-pill" data-tag="open-source">🔵 Open Source</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Content -->
+      <main class="content">
+        <div class="content-header">
+          <div class="content-info">
+            <h2 class="content-title" id="contentTitle">Todas as Ferramentas</h2>
+            <p class="content-count" id="contentCount">100 ferramentas</p>
+          </div>
+          <div class="content-sort">
+            <select id="sortSelect" class="sort-select">
+              <option value="default">Padrão</option>
+              <option value="name">Nome A-Z</option>
+              <option value="popular">Mais populares</option>
+            </select>
+          </div>
+        </div>
+        <div class="tools-grid" id="toolsGrid">
+          <!-- Cards rendered by JS -->
+        </div>
+        <div class="empty-state" id="emptyState" style="display: none;">
+          <span class="empty-emoji">🔍</span>
+          <h3>Nenhuma ferramenta encontrada</h3>
+          <p>Tente ajustar os filtros ou buscar por outro termo.</p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <p class="footer-tagline">✨ Potencialize sua advocacia com Inteligência Artificial</p>
+        <p class="footer-creator">
+          Criado por <a href="https://sbfrogerio.github.io/Rogerio-Bezerra/" target="_blank"
+            rel="noopener"><strong>Rogério Bezerra</strong></a>
+          — Advogado (OAB/AL 19.249) & Consultor em Inteligência Artificial
+        </p>
+      </div>
+      <div class="footer-contacts">
+        <a href="https://wa.me/5582987673811" target="_blank" rel="noopener" class="footer-link" title="WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://instagram.com/rogeriosbf" target="_blank" rel="noopener" class="footer-link" title="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>@rogeriosbf</span>
+        </a>
+        <a href="https://sbfrogerio.github.io/Rogerio-Bezerra/" target="_blank" rel="noopener" class="footer-link"
+          title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://sbfrogerio.github.io/Rogerio-Bezerra/" target="_blank" rel="noopener" class="footer-link"
+          title="Site Profissional">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span>Site</span>
+        </a>
+      </div>
+      <p class="footer-made">Feito com ☕️ em Maceió/AL</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
